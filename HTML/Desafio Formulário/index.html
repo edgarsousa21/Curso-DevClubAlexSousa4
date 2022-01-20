@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div id="div-main">
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <p>Nome:</p>
+        
+                <input class="input-name" name="nome" type="text">
+
+
+
+            <p>Email:</p>
+            <input class="input-email" name="email" type="email">
+
+
+
+            <p>Data de Nascimento:</p>
+            <input class="input-birth" name="nascimento" type="date" min="2012-01-01">
+
+            <div class="accounts">
+                <p>Onde você possui conta:</p>
+
+                <input type="checkbox" id="Instagram" name="Instagram">
+                <label for="Instagram">Instagram</label>
+
+                <input type="checkbox" id="Facebook" name="Facebook">
+                <label for="Facebook">Facebook</label>
+
+                <input type="checkbox" id="Youtube" name="Youtube">
+                <label for="Youtube">Youtube</label>
+            </div>
+
+            <div class="sex">
+                <p>Sexo</p>
+                <input type="radio" id="Masculino" name="Sexo">
+                <label for="Masculino">Masculino</label>
+
+                <input type="radio" id="Feminino" name="Sexo">
+                <label for="Feminino">Feminino</label>
+            </div>
+
+
+
+            <p>Cor dos Olhos</p>
+            <input class="input-eye-color" name="cor-olhos" type="color">
+
+
+
+            <p>Biografia</p>
+            <textarea name="Biografia" id="Biografia" cols="10" rows="5"
+                placeholder="Me fale um pouco sobre você..."></textarea>
+
+
+
+            <p>Foto de Perfil</p>
+            <input class="input-perfil" name="foto-perfil" type="file" accept="image/*" multiple>
+
+
+
+            <p>Telefone</p>
+            <input class="input-telephone" name="telefone" type="tel">
+
+
+
+            <p>Link do Perfil do Facebook</p>
+            <input class="input-link" name="linkperfil" type="url">
+
+            <p class="passwords">Senha</p>
+            <input class="input-password" name="senha" type="password" minlength="6" maxlength="8">
+            
+            <p></p>
+
+            <button class="button-reset" type="reset">Limpar</button>
+            <button class="input-submit" type="submit">Enviar Dados</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    font-size: 100px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#paragrafo-1 {
+    color: blueviolet;
+}
+
+.paragrafos {
+    color: green;
+}
+a[href="https://gooogle.com.br"] {
+    color: orangered;
+    font-size: 25px;
+}
+a {
+    font-size: 25px;
+}

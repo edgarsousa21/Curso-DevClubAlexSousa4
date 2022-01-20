@@ -1,0 +1,33 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+ 
+#div-main {
+    display: block;
+    border: black 5px solid;
+    padding: 10px;
+    background-color: lightblue;
+    
+}
+
+input {
+    border: rgb(127, 158, 168)  1px solid;
+}
+
+.button-reset {
+    cursor: pointer;
+    color: lightblue;
+    background-color: lightslategrey;
+}
+
+.input-submit {
+    cursor: pointer;
+    color: lightblue;
+    background-color: lightslategrey;
+}
+
+button:hover {
+    background-color: rgb(0, 110, 255);
+    color:white;
+    
+}

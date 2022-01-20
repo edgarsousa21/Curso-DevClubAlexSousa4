@@ -1,0 +1,10 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.block {
+background-color: green;
+height: 400px;
+width: 400px;
+display: inline;
+}
