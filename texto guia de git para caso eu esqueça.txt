@@ -1,0 +1,15 @@
+git help
+
+git status = mostra o status atual
+clear 
+
+git config (somente em maquinas que não possuem git instalado) - global user.name "seu nome entre aspas"
+git config - global user.email - "email entre aspas
+
+git init - inicia um novo repositorio na pasta 
+git add - adciona os arquivos para serem commitados
+git add . - adiciona todos arquivos para commit
+
+git commit -m "mensagem do commit entre aspas"
+
+git push - manda os arquivos para seu github
