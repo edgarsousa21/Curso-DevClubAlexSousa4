@@ -13,3 +13,5 @@ git add . - adiciona todos arquivos para commit
 git commit -m "mensagem do commit entre aspas"
 
 git push - manda os arquivos para seu github
+
+git pull - puxa os arquivos do github para seu diretorio local
