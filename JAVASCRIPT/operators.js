@@ -11,8 +11,6 @@
 
 
 
-
-
 /* OPERADORES DE ATRIBUIÇÃO
    = Atribuição 
    +=  Adição
@@ -30,7 +28,7 @@ firstNumber = firstNumber + 2
 // fazer um codigo maior
 firstNumber += 2
 
-console.log(firstNumber)
+// console.log(firstNumber)
 
 
 /* OPERADORES DE COMPARAÇÃO
@@ -49,7 +47,56 @@ console.log(firstNumber)
 <=   -> menor ou igual
 */
 
-const firstNumber1 = 10 
-const seccondNumber = 20
+ const firstNumber1 = 10 
+ const seccondNumber = 20
 
-console. log(firstNumber1 >= /*ou <=*/ seccondNumber)
+// console. log(firstNumber1 >= /*ou <=*/ seccondNumber)
+
+
+/* OPERADORES LÓGICOS
+   && --> E // FILHO OBEDIENTE 
+    true && true = true
+    true && false = false
+    false && false = false
+    CASO ESTIVER ALGUM ITEM FALSO, TUDO É FALSO
+
+|| > Ou // FILHO ESPERTINHO
+    true || true = true
+    true || false = true
+    false || false = false
+    CASO ESTIVER ALGUM ITEM VERDADEIRO, É VERDADEIRO
+
+
+!    -> Negação // DO CONTRA 
+     !true = false
+     !false = true
+     FAZ A INVERSÃO DE VALORES
+*/
+
+
+/* OPERADOR TERNÁRIO OU CONDICIONAL
+? se
+: se não
+*/
+
+const rain = false
+const umbrela = Irain ? 'levar guarda-chuva' : 'deixar guarda-chuva'
+
+// PRECISO TRANSFERIR MEU DINHEIRO
+const balance = true
+const isNotBlocked = true
+const accountExist = false
+const transfer0k = balance && isNotBlocked && accountExist ? 'TRANSFERENCIA REALIZADA' : 'TRANSFERENCIA NEGADA'
+
+/* OPERADORES typeof e delete */
+   // Servem para descobrir o tipo da variavel
+   // e para deletar um item de um objeto
+
+const myNumber = 20  
+const myString = "Olá, sou uma string"
+const myObject = {
+    name: "Object",
+    age:20,
+    height:1.9}
+
+    delete myObject.name
