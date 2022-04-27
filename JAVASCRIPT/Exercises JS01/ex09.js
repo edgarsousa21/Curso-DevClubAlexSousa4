@@ -9,7 +9,7 @@ const person = {
     weight: 50,
 }
 
-const person2 = {
+const person3 = {
     name: "fabiane",
     age: 24,
     sex: "Female",
@@ -17,14 +17,14 @@ const person2 = {
     weight: 66,
 }
 
-const person2 = {
+const person4 = {
     name: "thiago",
     sex: "Male",
     height: 1.70,
     weight: 100,
 }
 
-const person2 = {
+const person5 = {
     name: "Lucia",
     age: 41,
     sex: "Female",
@@ -32,7 +32,7 @@ const person2 = {
     weight: 70,
 }
 
-const person2 = {
+const person6 = {
     name: "alexandre",
     age: 31,
     sex: "Male",
