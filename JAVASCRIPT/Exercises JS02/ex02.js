@@ -7,7 +7,7 @@ Age: 22,
 Country: "Brazil"
 }
 
-if (Person.Country >= "Brazil") {
+if (Person.Country === "Brazil") {
     console.log ("Essa Pessoa é Brasileira")
 } else {
 console.log ("Essa Pessoa NÂO é Brasileira")
