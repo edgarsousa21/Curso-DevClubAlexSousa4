@@ -30,7 +30,7 @@ sum (numberOne, numberTwo)
 // RETURN FUNCTION 
 
 
-function sum (numberOne, numberTwo) {
+function sum (numberOne, numberTwo) { //PODE SER UTILIZADO COMO UMA CONSTANTE EX: (CONST SUM = FUNCTION ())
 
     return (numberOne + numberTwo)
 }
@@ -41,3 +41,11 @@ console.log (`O resultado é ${sum (numberOne, numberTwo)}`)
 
 // RETURN COMO JA DIZ O NOME RETORNA O QUE ESTÁ SOLICITADO DENTRO DA FUNCTION PARA ALGO QUE ESTÁ FORA DA FUNCTION
 // PARA PODER "TIRAR" UMA PARTE DA FUNCTION PARA ALGUEM QUE ESTÁ SOLICITANDO FORA 
+
+
+// ARROW FUNCTION 
+
+const sum = (number1, number2) => number1 + number2
+// automaticamente o return está incluso nessa arrow function
+// caso ponha colchetes entre "number1 e number2" o return não é incluido automaticamente
+
