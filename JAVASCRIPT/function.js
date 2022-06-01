@@ -48,4 +48,6 @@ console.log (`O resultado é ${sum (numberOne, numberTwo)}`)
 const sum = (number1, number2) => number1 + number2
 // automaticamente o return está incluso nessa arrow function
 // caso ponha colchetes entre "number1 e number2" o return não é incluido automaticamente
+// para se criar uma arrow function se precisar usar const ao inves de function
+
 
